@@ -1,12 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/your-repo-name/', // Make sure this is correct
   plugins: [react()],
-<<<<<<< HEAD
-   base: "/smart-irrigation-system-FrontEnd/",
-=======
-base: "/smart-irrigation-system-FrontEnd/",
->>>>>>> fd242fe (Deploy Vite build)
-})
+  build: {
+    outDir: 'docs', // Add this line
+  },
+});
