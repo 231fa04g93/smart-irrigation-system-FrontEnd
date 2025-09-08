@@ -1,0 +1,130 @@
+/* Scope everything to dashboard-page */
+.dashboard-page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Header */
+.dashboard-page header {
+  background: #2c7a7b;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-page header h1 {
+  margin: 0;
+}
+
+.dashboard-page header nav {
+  display: flex;
+  gap: 15px;
+}
+
+.dashboard-page header nav a,
+.dashboard-page .logout-btn {
+  color: white;
+  text-decoration: none;
+  background: #319795;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dashboard-page header nav a:hover,
+.dashboard-page .logout-btn:hover {
+  background: #2c7a7b;
+}
+
+/* Dashboard Section */
+.dashboard-page .dashboard {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-page .dashboard h2 {
+  margin-bottom: 15px;
+  color: #2c7a7b;
+}
+
+/* Moisture Bar */
+.dashboard-page .moisture-bar {
+  width: 100%;
+  height: 20px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.dashboard-page .moisture-fill {
+  height: 100%;
+  background: #38a169;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Buttons */
+.dashboard-page .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 10px 10px 0;
+  border: none;
+  border-radius: 6px;
+  background: #319795;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.dashboard-page .btn:hover {
+  background: #2c7a7b;
+}
+
+.dashboard-page .btn.off {
+  background: #e53e3e;
+}
+
+.dashboard-page .btn.off:hover {
+  background: #c53030;
+}
+
+/* Tip Box */
+.dashboard-page .tip-box {
+  background: #ebf8ff;
+  border-left: 5px solid #2b6cb0;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.dashboard-page .tip-box h3 {
+  margin: 0 0 5px 0;
+  color: #2b6cb0;
+}
+
+/* Weather Section */
+.dashboard-page .weather {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-page .weather h2 {
+  margin-bottom: 10px;
+  color: #2c7a7b;
+}

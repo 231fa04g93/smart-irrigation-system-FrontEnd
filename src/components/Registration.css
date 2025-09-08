@@ -1,0 +1,48 @@
+   body {
+      font-family: Arial, sans-serif;
+     background-image: url('image4.jpg');
+      background-position: center;   /* centers the image */
+  height: 100vh;  /* makes body full viewport height */
+  width: 100%;
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+      width: 350px;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #2b8a3e;
+    }
+    input, select {
+      width: 90%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .btn {
+      width: 95%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    .register-btn {
+      background: #2b8a3e;
+      color: white;
+    }
+    .register-btn:hover {
+      background: #1f6b2c;
+    }
